@@ -1,0 +1,22 @@
+{
+    "name": "bitixel/module-registrationvalidation",
+    "description": "Validate user email before registration",
+    "type": "magento2-module",
+    "license": "proprietary",
+    "authors": [
+        {
+            "email": "info@bitixel.com",
+            "name": "Bitixel Crew"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Bitixel\\RegistrationValidation\\": ""
+        },
+        "files": [
+            "registration.php"
+        ]
+    }
+}
